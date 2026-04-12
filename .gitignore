@@ -216,6 +216,8 @@ __marimo__/
 .streamlit/secrets.toml
 
 # project specific
-data/processed
-data/raw
-!data/**/.gitkeep
+data/raw/*
+data/processed/*
+
+!data/raw/.gitkeep
+!data/processed/.gitkeep
